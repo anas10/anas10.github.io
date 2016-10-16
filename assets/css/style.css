@@ -540,6 +540,7 @@ html {
 
 #masthead .inner .container {
   margin-bottom: 15px;
+  min-height: 300px;
 }
 
 /* - Brand - */
@@ -576,6 +577,10 @@ html {
 
 
 @media (max-width: 480px) {
+  #masthead .inner .container {
+    min-height: 220px;
+  }
+
   .brand img {
     max-height: 120px;
   }
