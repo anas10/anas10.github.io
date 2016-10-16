@@ -1,9 +1,9 @@
-title:            Anas AIT ALI
-description:      Still to be defined..
-logo:             omikron.png
+title:            Anas AIT-ALI
+description:      To do so...
+logo:             anas_artwork.jpg
 disqus_shortname: aitali
 # Assign a default image for your site's header and footer
-default_bg:       default_bg.jpg
+default_bg:       melbourne_bg.jpg
 search:           true
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
@@ -17,7 +17,7 @@ fin_color:        "255,255,255"
 url:              http://localhost:4000
 # baseurl:
 
-excerpt_separator: "<!--more-->"
+excerpt_separator: <!--more-->
 # Gems used
 gems:
   - jekyll-feed
@@ -49,11 +49,11 @@ author:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Some Details about yourself
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
+  twitter: "anasaitali"
   facebook:
-  github:
-  linkedin:
-  instagram:
+  github: "anas10"
+  linkedin: "https://www.linkedin.com/in/anasaitali"
+  instagram: "ceintureetbretelles/"
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    "http://plus.google.com/123123123123132123"
@@ -91,13 +91,13 @@ future:      true
 markdown:    kramdown
 highlighter: rouge
 paginate:    6
-paginate_path: "/blog/:num/"
+paginate_path: "/page:num/"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 collections:
   posts:
     output: true
-    permalink: /blog/:title
+    permalink: /article/:title
   pages:
     output: true
     permalink: /:title

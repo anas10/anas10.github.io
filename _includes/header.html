@@ -36,15 +36,15 @@
     <span class="image-credit">Photo Credit: <a href="{{ page.imagecreditlink }}" target="_blank"> {{ page.imagecredit }}</a></span>
     {% endif %}
 {% else %}
-<header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom" style="background-image: url(/images/{{ site.default_bg }})"
+<header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom default_bg_header" style="background-image: url(/images/{{ site.default_bg }})"
     itemscope itemtype="http://schema.org/Organization">
 {% endif %}
 
 {% if site.search %}
     <button class="menu-button animated fade dosearch">
         <i class="fa fa-search"></i>
-    </button> 
-{% endif %} 
+    </button>
+{% endif %}
 
 {% if page.headline %}
     <div class="inner">
@@ -87,7 +87,7 @@
             <path d="M48 52 L50 49 L52 52 L48 52" fill="rgba(255,255,255, 1)"></path>
         </svg>
     </div>
-{% else %} 
+{% else %}
     {% if site.triangleheader %}
     <div class="decor-wrapper">
         <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
