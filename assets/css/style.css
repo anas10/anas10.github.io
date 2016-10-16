@@ -762,7 +762,7 @@ html {
 }
 
 .default_bg_header {
-  background-position: -150px;
+  background-position-y: -150px;
 }
 
 /* - Inner allignment - */
