@@ -69,6 +69,9 @@ links:
     url: /
     external: false
     icon: home
+  - title: About me
+    url: http://aitali.co
+    external: true
   - title: Categories
     url: /categories
   - title: Tags
